@@ -1,5 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+}
+body{
+    background: url(../pics/bg-body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+#all{
+    margin: 0 15%;
+    width: 1300px;
+    
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+#header img{
+    background-size: cover;
+    width: 100%;
+}
+#header h1{
+position: absolute;
+color: white;
+font-size: 8rem;
+left:18%;
+top: 7%;
+}
+#container{
+    position: relative;
+    background-color: white;
+    margin-top: -10px;
+    
+}
+#navbar{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background-color: rgb(41, 48, 50);
+    font-size: 1.6rem;
+    padding-top: 30px ;
+}
+#navbar ul li{
+    border-bottom: 2px dashed white;
+    margin: 20px 30px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+#navbar ul li a:hover{
+    color:rgb(26, 150, 67) ;
+   
+}
+#navbar ul li a{
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+#content{
+    display: block;
+    margin-left:20%;
+    padding: 20px 30px;
+}
+#zold{
+    display: block;
+    margin-left: 15px;
+}
+#content h2{
+    display: inline;
+    background-color: rgb(26, 150, 67);
+    color: white;
+    font-size: 4rem;
+    line-height: 1.7;
+    padding: 0 10px 5px 10px;
+    letter-spacing: 1px; 
+}
+.kaja1{
+    margin: 15px 15px;
+    float: right;
+}
+.kaja2{
+    float: left;
+    margin: 15px 20px 15px 10px;
+
+}
+#content::after{
+    display: table;
+    clear: both;
+    content: '';
+}
+p{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+#footer{
+    width: 1300px;
+}
+#f-left{
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    
+}
+#f-right{
+    display: inline-block;
+    float: right;
+    padding: 10px 0;
+    font-size: 1.3rem;
+}    
+#f-right a{
+    color: rgb(34, 40, 40);
+    border-left: 1px solid rgb(34, 40, 40);
+    margin: 0 5px;
+    padding-left: 5px ;
+    font-weight: 600;
 }
